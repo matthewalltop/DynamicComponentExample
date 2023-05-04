@@ -1,16 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WidgetContainerComponent } from './components/widget-container/widget-container.component';
+import { HelloWidgetComponent } from './components/hello-widget/hello-widget.component';
+import { PlatformWidgetDirective } from './directives/platform-widget.directive';
+import { NumbersWidgetComponent } from './components/numbers-widget/numbers-widget.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WidgetContainerComponent,
+    HelloWidgetComponent,
+    PlatformWidgetDirective,
+    NumbersWidgetComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

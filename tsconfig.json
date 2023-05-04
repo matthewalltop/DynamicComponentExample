@@ -24,6 +24,11 @@
       "dom"
     ]
   },
+  "plugins": [
+    {
+        "transform": "tst-reflect-transformer"
+    }
+  ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,

@@ -1,0 +1,8 @@
+{
+    "widgets": [
+      {
+        "component": "HelloWidgetComponent",
+        "data": { "message": "Hello from the Hello Widget!" }
+      }
+    ]
+  }
